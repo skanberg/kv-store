@@ -1,0 +1,19 @@
+{
+  "name": "kv-store",
+  "version": "0.0.1",
+  "description": "Simple key-value store for skanberg.net.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skanberg/kv-store.git"
+  },
+  "author": "Fredrik Skanberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skanberg/kv-store/issues"
+  },
+  "homepage": "https://github.com/skanberg/kv-store#readme"
+}
