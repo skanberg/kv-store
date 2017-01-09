@@ -1,4 +1,9 @@
 const kvstore = require("../index.js");
 
-console.log(kvstore.get("conny"));
-console.log(kvstore.set("Sune", "Hjort"));
+it("returns key", () => {
+  expect(kvstore.get("conny")).toBe("Get value for key conny");
+});
+
+it("sets key", () => {
+  expect(kvstore.set("Sune", "Hjort")).toBe("Setting value Hjort for key Sune");
+});
